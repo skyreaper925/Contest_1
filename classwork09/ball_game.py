@@ -108,6 +108,7 @@ while not finished:
     if score >= 3:
         finished = True
 
+
 with open("rating.txt", "r") as f:       #Считывание старой таблицы
     a = list(map(lambda x: [y for y in x.rstrip().split()], f.readlines()))
 Find = False
